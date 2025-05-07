@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokesh - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        header h1 {
+            letter-spacing: 1.5px;
+        }
+        .project-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans bg-[#F5F5F5] text-[#2E2E2E]">
+    <header class="bg-[#4B0082] text-white py-6 flex items-center justify-center">
+        <h1 class="text-4xl font-bold">LOKESH D D</h1>
+    </header>
+    <main class="container mx-auto p-6">
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-[#1E3A8A] mb-4">About Me</h2>
+            <p class="text-lg leading-relaxed mb-4"></p>
+                I am Lokesh D D, a passionate individual with a strong background in Web Development and coding. My interests span across web development, problem-solving, and exploring innovative solutions. What makes me unique is my ability to combine technical expertise with a keen eye for design, ensuring that every project I work on is both functional and visually appealing. I am constantly driven by a desire to learn and grow, making me adaptable and ready to tackle new challenges.
+            </p>
+            <h2 class="text-3xl font-semibold text-[#1E3A8A] mb-4">Skills and Interests</h2>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>Web Development</li>
+                <li>Problem-Solving</li>
+                <li>Node.js</li>
+                <li>JavaScript, HTML, CSS</li>
+                <li>Continuous Learning</li>
+            </ul>
+        </section>
+        <section class="mb-12">
+            <h3 class="text-3xl font-semibold text-[#1E3A8A] mb-4">Projects</h3>
+            <ul class="space-y-6">
+                <li class="bg-white shadow-md p-4 rounded-lg project-card">
+                    <strong class="text-lg">Portfolio Website:</strong>
+                    <p>A personal portfolio website showcasing my skills, projects, and experience. Built using HTML and CSS to create a responsive and visually appealing design. I will soon add links to my projects for easy access.</p>
+                </li>
+                <li class="bg-white shadow-md p-4 rounded-lg project-card">
+                    <strong class="text-lg">Amazon Product Page:</strong>
+                    <p>A web page that mimics the layout of an Amazon product page. It includes product image, product description, and star rating. Built using HTML and CSS for layout and styling.</p>
+                </li>
+                <li class="bg-white shadow-md p-4 rounded-lg project-card">
+                    <strong class="text-lg">Weather App:</strong>
+                    <p>A weather forecasting application that fetches real-time weather data using an API. Built with JavaScript and styled with CSS for a clean user interface.</p>
+                </li>
+                <li class="bg-white shadow-md p-4 rounded-lg project-card">
+                    <strong class="text-lg">Professional Card:</strong>
+                    <p>A card that displays the details of a professional. It includes their image, name, and contact details, along with links to Facebook, Twitter, and GitHub. Built using HTML and CSS for layout and styling.</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h4 class="text-3xl font-semibold text-[#1E3A8A] mb-4">Contact Me</h4>
+            <p class="mb-4">If you would like to get in touch, feel free to reach out via email at
+                <a href="mailto:loki001008@gmail.com" class="text-[#14B8A6] underline hover:text-[#0D9488]">loki001008@gmail.com</a>
+            </p>
+            <div class="flex space-x-4">
+                <a href="https://github.com/LokeshDhinakaran" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="32" height="32" class="hover:opacity-75">
+                </a>
+                <a href="https://www.linkedin.com/in/lokesh-d-d-0971b5275" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="32" height="32" class="hover:opacity-75">
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#4B0082] text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>Thank you for visiting my portfolio. Have a great day!</p>
+        </div>
+    </footer>
+</body>
+</html>
